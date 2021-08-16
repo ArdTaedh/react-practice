@@ -1,0 +1,41 @@
+.header{
+    background-color: #0C1821;
+}
+
+.header .sidebar {
+    width: 50%;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-style: italic;
+    letter-spacing: 0.04em;
+}
+
+@media screen and (min-width: 768px) {
+    .header-nav {
+        display: flex;
+    }
+
+    .burger {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .burger {
+        display: flex;
+    }
+
+    .header-nav {
+        display: none;
+    }
+}
